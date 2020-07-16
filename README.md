@@ -9,7 +9,7 @@
     git show: mostra a última alteração feita no  git  
 
 ## Crinado novas funcionalidades (branchs)
-    git branch <nome do novo branch>: criar uma nova funcinalidade sem mecher no antigo 
+    git branch <nome do novo branch>: gerenciar novas "linhas do tempo"
     git checkout <branch>: mudar para os outros "universos" (mastar, feature/carrinho_de_compras)
     git branch : mostrar tds os branchs criados 
     git merge: unir os arquivos de 2 branch's
@@ -17,4 +17,7 @@
 
 ## Passando projeto para o github
     git remote add origin <link do repositrio do git>: colocar os dados do git na nuvem do github 
-    git push: enviar os arquivos para nuvem 
+    git push: enviar alterações locais para o repositório remoto 
+
+## Pegar um projeto que já foi iniciado
+    git clone <link do projeto >: clonar o projeto do repositório online  para o local 
