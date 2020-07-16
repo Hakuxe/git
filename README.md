@@ -22,3 +22,4 @@
 
 ## Pegar um projeto que já foi iniciado
     git clone <link do projeto >: clonar o projeto do repositório online  para o local 
+    git pull: pegar as atualizações da nuvem e aplicar no projeto local 
