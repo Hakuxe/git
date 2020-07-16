@@ -14,6 +14,7 @@
     git branch : mostrar tds os branchs criados 
     git merge: unir os arquivos de 2 branch's
     git branch -D <nome branch>: deletar um "galho " existente 
+    git checkout -b <nome do branch>: criar uma nova linha do tempo e alterar o repositorio atual para ela
 
 ## Passando projeto para o github
     git remote add origin <link do repositrio do git>: colocar os dados do git na nuvem do github 
