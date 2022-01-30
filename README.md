@@ -24,7 +24,7 @@
 
 ###  Renomear ou movendo arquivos
 
-    # usado para renomear/mover um arquivo de pasta (meio que renomeando o arquivo pro caminho desejado )
+    # usado para renomear/mover um arquivo de pasta (meio que renomeando o arquivo pro caminho desejado)
     git mv < nome do arquivo > < novo nome >
 
 

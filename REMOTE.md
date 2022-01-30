@@ -11,3 +11,13 @@
     
     # pegar as atualizações da nuvem e aplicar no projeto local 
     git pull
+
+
+
+## Swapping an HTTPS Repo To SSH Authentication
+    # remover a origin atual 
+    git remote rm origin
+
+    # trocar pela ssh-key
+    git remote add origin < ssh-key do repositório >
+    git push --set-upstream origin/< nome da branch principal >
