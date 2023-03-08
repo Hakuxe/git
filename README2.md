@@ -55,3 +55,20 @@ Working directory -> Staged area -> Local repository
 - git show < começo da hash de um commit >
   - git show < começo da hash de um commit > --color-words (marcar as palavras que mudaram)
   - git show < começo da hash de um commit > -- < caminho arquivo > (mostrar todas a modificações de 1 arquivo específico )
+
+
+
+## Exibindo alterações
+
+ mostra a última alteração feita no  git
+git show
+
+ exibir todas as alterações que foram feitas no arquivo
+git log
+
+    # listar commits por nome
+    git log --author=nome
+
+    # exibi o log simplificado
+    git log --oneline
+```

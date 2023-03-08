@@ -1,38 +1,59 @@
-# Crinado novas funcionalidades (branchs)
+# Branches, ramificações ou galhos
 
-    # gerenciar novas "linhas do tempo"
-    git branch <nome do novo branch>
+## Criar novas ramificações(branches)
 
-    # mudar para os outros "universos" (master, feature/carrinho_de_compras)
-    git checkout <branch>
+Gerar uma nova ramificação(branch) que deriva da anterior
 
-    # criar um novo branch e alterar o repositorio atual para ele
-    git checkout -b <nome do branch>
+```bash
+git branch [nome-do-novo-branch]
+```
 
-    # mostrar tds os branchs criados
-    git branch
+Outra forma de criar um novo branch é usar a tag `-b` no comando `checkout`, assim o branch será criado e repositório local e movido para ele.
 
-    # deletar um "galho " existente
-    git branch -D <nome branch>
+```bash
+    git checkout -b [nome-do-branch]
+```
 
-    # deletar branch remota
-    git push origin --delete nome-da-branch
+## Navegar entre branches
+
+Para navegar entre os branches pode ser utilizado o `checkout` ou `switch`:
+
+```bash
+git checkout [nome-branch]
+```
+
+A diferença entre eles é que o `switch` foi implementado nas versões mais novas do git, com o intuito de "diminuir" a quantidade de funcionalidade abrangidas pelo comando `checkout`
+
+```bash
+git switch [nome-branch]
+```
+
+## Exibir branches
+
+mostrar tds os branchs criados
+
+```bash
+git branch
+```
+
+[//]: # "adicionar tags "
+
+## Deletar um branch
+
+Deletar um "galho " existente
+
+```bash
+ git branch -D [nome-branch]
+```
+
+Deletar um branch existente num repositório remoto
+
+```bash
+git push origin --delete [nome-branch]
+
+```
 
 ## Manipulando branchs
 
-    # unir os arquivos de 2 branch's
-    git merge
-
-## Exibindo alterações
-
-    # mostra a última alteração feita no  git
-    git show
-
-    # exibir todas as alterações que foram feitas no arquivo
-    git log
-
-        # listar commits por nome
-        git log --author=nome
-
-        # exibi o log simplificado
-        git log --oneline
+Unir os arquivos de 2 branch's
+git merge
