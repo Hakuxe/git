@@ -40,7 +40,7 @@ git branch
 
 ## Deletar um branch
 
-Deletar um "galho " existente
+Deletar um branch/galho existente
 
 ```bash
  git branch -D [nome-branch]
@@ -53,7 +53,12 @@ git push origin --delete [nome-branch]
 
 ```
 
-## Manipulando branchs
+## Manipulando branches
 
-Unir os arquivos de 2 branch's
-git merge
+### Git Merge
+
+O comando git merge ser para unir os arquivos de 2 branches. Para realizar o git merge basta dar um `switch` ou `checkout` para o branch que vai **receber** os arquivos e executar o comando:
+
+```bash
+git merge [nome-branch]
+```
