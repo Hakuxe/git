@@ -17,6 +17,14 @@ Atalho -am :  Ele combina os comandos `git add` e `git commit -m` adicionando to
 git commit -am "[message]"
 ```
 
+## Editar um commit
+
+Para editar um commit podemos utilizar o `--amend`, este comando permite editar o último commit feito permitindo modificar a mensagem de commit,  subir novos arquivos e alterações que estejam na stage area.
+
+```bash
+  git commit --amend
+```
+
 ## Desfazer um commit
 
 ### Modo safe
