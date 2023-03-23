@@ -65,3 +65,11 @@ Deleta todos os commits e arquivos (TUDO MESMO CUIDADO)
 ```bash
 git reset [commit-hash] --hard 
 ```
+
+## Pegar um commit específico
+
+O comando `cherry-pick` permite copiar um commit específico e coloca-lo no branch atual.
+
+```bash
+git cherry-pick [commit-hash]  
+```

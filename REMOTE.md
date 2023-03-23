@@ -1,4 +1,5 @@
 ## Passando projeto para o github
+
     # colocar os dados do git na nuvem do github 
     git remote add origin <link do repositrio do git>
 
@@ -6,6 +7,7 @@
     git push
 
 ## Pegar um projeto que já foi iniciado
+
     # clonar o projeto do repositório online  para o local 
     git clone <link do projeto >
     
@@ -15,6 +17,7 @@
 
 
 ## Swapping an HTTPS Repo To SSH Authentication
+
     # remover a origin atual 
     git remote rm origin
 
